@@ -85,4 +85,102 @@ h2 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.item {
+  background: #191919;
+  border: 1px solid #292929;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 35px;
+  color: #777;
+  border-top: 1px solid #222;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#football">Football</a>
+<a href="#gaming">Gaming</a>
+</nav>
+
+<header class="hero" id="home">
+<div>
+<h1>REDUAN</h1>
+<p>Welcome to REDUAN 2.0 🇧🇩</p>
+<a class="btn" href="#about">Explore 🚀</a>
+</div>
+</header>
+
+<section id="about">
+<h2>👤 About REDUAN</h2>
+
+<div class="card">
+<h3>Hey! I'm REDUAN 👋</h3>
+<p>Welcome to my personal website! 🇧🇩</p>
+<p>I love ⚽ Football, 🎮 Gaming and 🎵 Music.</p>
+<p>This is my space to share my interests and favourite things.</p>
+</div>
+</section>
+
+<section id="football">
+<h2>⚽ Football</h2>
+
+<div class="card">
+<h3>REDUAN's All-Time Best XI</h3>
+<p>Formation: <b>4-3-3</b></p>
+
+<div class="grid">
+
+<div class="item">🧤 GK<br><b>Manuel Neuer</b></div>
+
+<div class="item">LB<br><b>Paolo Maldini</b></div>
+
+<div class="item">CB<br><b>Franz Beckenbauer</b></div>
+
+<div class="item">CB<br><b>Sergio Ramos</b></div>
+
+<div class="item">RB<br><b>Cafu</b></div>
+
+<div class="item">DMF<br><b>Lothar Matthäus</b></div>
+
+<div class="item">CMF<br><b>Xavi</b></div>
+
+<div class="item">AMF<br><b>Zinedine Zidane</b></div>
+
+<div class="item">LWF<br><b>Cristiano Ronaldo</b></div>
+
+<div class="item">CF<br><b>Pelé</b></div>
+
+<div class="item">RWF<br><b>Lionel Messi</b></div>
+
+</div>
+</div>
+</section>
+
+<section id="gaming">
+<h2>🎮 Gaming</h2>
+
+<div class="card">
+<h3>eFootball</h3>
+<p>Formation: 4-3-3 ⚽</p>
+<p>Playstyle: Quick Counter ⚡</p>
+</div>
+</section>
+
+<footer>
+© 2026 REDUAN • REDUAN 2.0
+</footer>
+
+</body>
+</html>
