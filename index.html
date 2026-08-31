@@ -1,7 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>REDUAN</title>
-<style>*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0b0b0b;color:#fff;text-align:center}.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:25px}.card{max-width:700px;width:100%;padding:50px 25px;border:1px solid #333;border-radius:24px;background:#151515}h1{font-size:64px;margin:0 0 12px;letter-spacing:6px}p{font-size:20px;color:#bbb;margin:10px 0 25px}button{padding:14px 28px;border:0;border-radius:30px;font-size:17px;cursor:pointer}#msg{margin-top:20px;color:#aaa}</style>
-</head><body><div class="wrap"><div class="card"><h1>REDUAN</h1><p>Welcome to my website 🇧🇩</p><button onclick="document.getElementById('msg').textContent='Thanks for visiting! ⚽🔥'">Enter</button><div id="msg"></div></div></div></body></html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REDUAN 2.0</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #060606;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #111;
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #292929;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 9px;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.hero p {
+  color: #aaa;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 13px 26px;
+  border-radius: 30px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 65px 22px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #303030;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(
